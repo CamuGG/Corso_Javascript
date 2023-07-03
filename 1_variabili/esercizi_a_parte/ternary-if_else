@@ -1,0 +1,19 @@
+let num;
+let conditionA = num > 2;
+let conditionB = num < 8;
+
+//ternary or conditional operator (?)
+//let str = conditionA && conditionB ? "in bounds" : "out of bounds";
+
+
+
+
+//let output = num == null || num == undefined ? 0 : 5 + num;
+
+if (num == null) {
+    console.log('error: null number');
+}   else if (num == undefined) {
+    console.log('error: undefine number');
+}   else {
+    console.log(num);
+}
